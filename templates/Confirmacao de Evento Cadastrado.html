@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Confirmacao de Evento Cadastrado</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='montserrat-font.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/material-design-iconic-font/css/material-design-iconic-font.min.css') }}">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='Confirmacao_de_Evento_Cadastrado.css') }}"/>
+	<script src="{{ url_for('static', filename='bootstrap/js/color-modes.js') }}"></script>
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+	<link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+	<link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<style>::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #C7EEFF; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");:root{--header-height: 3rem;--nav-width: 68px;--first-color: #4723D9;--first-color-light: #AFA5D9;--white-color: #F7F6FB;--black-color: #000000;--body-font: 'Nunito', sans-serif;--normal-font-size: 1rem;--z-fixed: 100}*,::before,::after{box-sizing: border-box}body{position: relative;margin: var(--header-height) 0 0 0;padding: 0 1rem;font-family: var(--body-font);font-size: var(--normal-font-size);transition: .5s}a{text-decoration: none}.header{width: 100%;height: var(--header-height);position: fixed;top: 0;left: 0;display: flex;align-items: center;justify-content: space-between;padding: 0 1rem;background-color: var(--white-color);z-index: var(--z-fixed);transition: .5s}.header_toggle{color: var(--first-color);font-size: 1.5rem;cursor: pointer}.header_img{width: 35px;height: 35px;display: flex;justify-content: center;border-radius: 50%;overflow: hidden}.header_img img{width: 40px}.l-navbar{position: fixed;top: 0;left: -30%;width: var(--nav-width);height: 100vh;background-color: var(--first-color);padding: .5rem 1rem 0 0;transition: .5s;z-index: var(--z-fixed)}.nav{height: 100%;display: flex;flex-direction: column;justify-content: space-between;overflow: hidden}.nav_logo, .nav_link{display: grid;grid-template-columns: max-content max-content;align-items: center;column-gap: 1rem;padding: .5rem 0 .5rem 1.5rem}.nav_logo{margin-bottom: 2rem}.nav_logo-icon{font-size: 1.25rem;color: var(--white-color)}.nav_logo-name{color: var(--black-color);font-weight: 700}.nav_link{position: relative;color: var(--first-color-light);margin-bottom: 1.5rem;transition: .3s}.nav_link:hover{color: var(--white-color)}.nav_icon{font-size: 1.25rem}.show{left: 0}.body-pd{padding-left: calc(var(--nav-width) + 1rem)}.active{color: var(--white-color)}.active::before{content: '';position: absolute;left: 0;width: 2px;height: 32px;background-color: var(--white-color)}.height-100{height:100vh}@media screen and (min-width: 768px){body{margin: calc(var(--header-height) + 1rem) 0 0 0;padding-left: calc(var(--nav-width) + 2rem)}.header{height: calc(var(--header-height) + 1rem);padding: 0 2rem 0 calc(var(--nav-width) + 2rem)}.header_img{width: 40px;height: 40px}.header_img img{width: 45px}.l-navbar{left: 0;padding: 1rem 1rem 0 0}.show{width: calc(var(--nav-width) + 156px)}.body-pd{padding-left: calc(var(--nav-width) + 188px)}}</style>
+                              
+</head>
+<body class="form-v10">
+	<body className='snippet-body'>
+		<body id="body-pd" style="background-color: #C7EEFF;">
+		  <header class="header" id="header" style="background-color: #7AC38F;">
+			<div class="header_toggle"> <i class='bx bx-menu' id="header-toggle" style="color: #000000;"></i> </div>
+			<div class="container">
+			  <img src="{{ url_for('static', filename='resources/Símbolo_da_UnB_(para_fundo_branco).png') }}" class="unb-icon" id="unb-icon" alt="UnB" >
+			  <strong>UnB Eventos</strong>
+			  <script src="{{ url_for('static', filename='js/Overlay.js') }}"></script>
+			</div>
+		</header>
+		<div class="l-navbar" id="nav-bar" style="background-color: #7AC38F;">
+			<nav class="nav">
+				<div> <a href="#" class="nav_logo"> <i class='bx bx-layer nav_logo-icon' style="color: #000000;"></i> <span class="nav_logo-name">Menu</span> </a>
+					<div class="nav_list"> <a href="/" class="nav_link active"> <i class='bx bx-grid-alt nav_icon' style="color: #000000"></i> <span class="nav_name">Página principal</span> </a> 
+					  <a href="/usuario" class="nav_link"> <i class='bx bx-user nav_icon' style="color: #000000"></i> <span class="nav_name">Minha página</span> </a> 
+					  <a href="/todos" class="nav_link"> <i class='bx bx-message-square-detail nav_icon' style="color: #000000"></i> <span class="nav_name">Explorar</span> </a> 
+					  <a href="/cadastrar" class="nav_link"> <i class='bx bx-bookmark nav_icon' style="color: #000000"></i> <span class="nav_name">Organizar evento</span> </a> 
+					  <a href="/favoritos" class="nav_link"> <i class='bx bx-folder nav_icon' style="color: #000000"></i> <span class="nav_name">Favoritos</span> </a> 
+					  
+				</div>
+				</div> <a href="#" class="nav_link"> <i class='bx bx-log-out nav_icon' style="color: #000000"></i> <span class="nav_name">SignOut</span> </a>
+			</nav>
+		</div>
+									<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
+									<script type='text/javascript' src='#'></script>
+									<script type='text/javascript' src='#'></script>
+									<script type='text/javascript' src='#'></script>
+									<script type='text/javascript'>document.addEventListener("DOMContentLoaded", function(event) {
+	   
+	  const showNavbar = (toggleId, navId, bodyId, headerId) =>{
+	  const toggle = document.getElementById(toggleId),
+	  nav = document.getElementById(navId),
+	  bodypd = document.getElementById(bodyId),
+	  headerpd = document.getElementById(headerId)
+	  
+	  // Validate that all variables exist
+	  if(toggle && nav && bodypd && headerpd){
+	  toggle.addEventListener('click', ()=>{
+	  // show navbar
+	  nav.classList.toggle('show')
+	  // change icon
+	  toggle.classList.toggle('bx-x')
+	  // add padding to body
+	  bodypd.classList.toggle('body-pd')
+	  // add padding to header
+	  headerpd.classList.toggle('body-pd')
+	  })
+	  }
+	  }
+	  
+	  showNavbar('header-toggle','nav-bar','body-pd','header')
+	  
+	  /*===== LINK ACTIVE =====*/
+	  const linkColor = document.querySelectorAll('.nav_link')
+	  
+	  function colorLink(){
+	  if(linkColor){
+	  linkColor.forEach(l=> l.classList.remove('active'))
+	  this.classList.add('active')
+	  }
+	  }
+	  linkColor.forEach(l=> l.addEventListener('click', colorLink))
+	  
+	  // Your code to run since DOM is loaded and ready
+	  });</script>
+									<script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
+									myLink.addEventListener('click', function(e) {
+									  e.preventDefault();
+									});</script>
+  <script src="{{ url_for('static', filename='js/Cadastro de Evento.js') }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="{{ url_for('static', filename='js/Formatar Data.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/Formatar Horario.js') }}"></script>
+
+	<div class="page-content">
+		<div class="form-v10-content">
+			<form class="form-detail" action="/" method="post" id="myform">
+				<div class="form-left">
+					<h2>Evento Cadastrado</h2>
+					<div class="form-row-last">
+						<input type="submit" name="register" formaction="http://localhost:5000/"  class="register" value="Confirmar">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
