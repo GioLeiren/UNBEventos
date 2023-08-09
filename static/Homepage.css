@@ -1,0 +1,99 @@
+main {
+    background: #C7EEFF;
+}
+
+body {
+    background: #C7EEFF;
+}
+
+.container strong {
+    position: relative;
+    font-size: 20px;
+    left: 20px;
+}
+
+.unb-icon {
+    transform: scale(1.6);
+    width: 52px;
+    height: 30px;
+}
+
+.e-prox {
+    position: absolute;
+    bottom: 670px;
+    right: 1180px;
+}
+
+.nav_name {
+    color: #000000;
+}
+
+.nav_logo-name {
+    color: #000000;
+}
+
+
+/* ------------- */
+.box{
+    position: relative;
+}
+
+.input {
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: 4px solid #7AC38F;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: #7AC38F;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 350px;
+    background: #ffffff;
+    border-radius: 1px;
+}
+.box i{
+    position: absolute;
+    top: 32px;
+    right: 243px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #7AC38F;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+/* ------------- */
+
+div[class="card-body"] {
+    position: relative;
+    width: 200px;
+    height: 230px;
+}
+
+button[class="btn btn-sm btn-outline-secondary"] {
+    position: absolute;
+    top: 10px;
+}
+
+.search-bar {
+    border-radius: 10px;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay color and transparency */
+    display: none; /* Hide the overlay initially */
+    z-index: 1; /* Set a higher z-index to make it overlap other elements */
+  }

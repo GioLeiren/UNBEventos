@@ -1,0 +1,70 @@
+body {
+    background-color: #000000;
+}
+
+.col-12 .p-0 {
+    position: relative;
+    top: 100px;
+}
+
+.nav_name {
+    color: #000000;
+}
+
+.nav_logo-name {
+    color: #000000;
+}
+
+.botao-de-visualizacao {
+    position: relative;
+    left: 450px;
+    top: 0px;
+    size: 0vw;
+}
+
+body {
+    background-color: #e2e8f0;
+    padding: 20px;
+}
+
+.breadcrumb {
+    background-color: #c5cee4;
+
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.unb-icon {
+    width: 40px;
+    height: 30px;
+}
+
+.fab.fa-twitter {
+    color: #8ab7f1;
+}
+
+.fab.fa-instagram {
+    color: #E1306C;
+}
+
+.fab.fa-facebook-f {
+    color: #5999ec;
+}
